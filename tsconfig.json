@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "sourceMap": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "typeRoots": ["types/*"],
+    "experimentalDecorators": true,
+    "isolatedModules": true
+  },
+  "include": ["src", "types"],
+  "exclude": ["node_modules"]
+}
