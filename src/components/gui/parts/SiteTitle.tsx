@@ -8,7 +8,7 @@ import styled from "@emotion/styled";
  */
 export function SiteTitle(props: IProps) {
   const { value } = props;
-  return <SHeading className="title">{value || "Next.js!"}</SHeading>;
+  return <SHeading className="title">{value || "Next.js!!"}</SHeading>;
 }
 
 const SHeading = styled.h1`
