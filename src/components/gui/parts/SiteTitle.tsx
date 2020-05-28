@@ -10,7 +10,7 @@ export function SiteTitle(props: IProps) {
   const { value } = props;
   return (
     <SHeading className="title">
-      Welcome to <a href="https://nextjs.org">{value || "Next.js!"}</a>
+      <a href="https://nextjs.org">{value || "Next.js!"}</a>
     </SHeading>
   );
 }
